@@ -13,7 +13,10 @@ void _positionedRecord() {
   int a=1;
   int b=2;
   final value=getSumDifference(1, 2);
+  var valuePlusOne=value.$1;
+  valuePlusOne=valuePlusOne+1;
   print("Sum of $a and $b is ${value.$1}");
+  print("Sum of $a and $b plus 1 is $valuePlusOne");
   print("Difference of $a and $b is ${value.$2}");
   print("------------------------");
 }
