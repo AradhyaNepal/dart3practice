@@ -147,7 +147,7 @@ class _MiddleClass extends _Person {
     super.name, {
     required this.degree,
     required this.loanOfDegree,
-  }) : assert(degree is Degree || degree is List<Degree>);
+  }) : assert(degree is Degree || degree is List<Degree>),assert(degree is List && degree.length<2);
 }
 
 class _LowerClass extends _Person {
