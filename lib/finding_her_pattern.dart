@@ -6,7 +6,7 @@ void main() {
   print("The person is ${_getOutput(she)}.");
   print("I have full faith on myself that I will find that person as fast as possible.");
   print("Wish me a Good Luck :-)");
-  print("Bye bye, I am busy finding that person, cannot waste further time by talking ;-)");
+  print("Bye bye, I am busy finding ${she.nameOfPersonWhichIsReallyBig}, cannot waste further time by talking ;-)");
 }
 
 String _getOutput(_Person person) {

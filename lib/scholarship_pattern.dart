@@ -1,5 +1,5 @@
 void main() {
-  print("Toppers Student Names");
+  print("Scholarship Student Names");
   print("----------------------");
   print("Science Result:");
   print(_getOutput(forScience: true));
