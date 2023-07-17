@@ -1,5 +1,11 @@
 void main() {
   var [me, she] = _twoPersons;
+  _displayTheJourney(me, she);
+  [me,she]=[she,me];
+  _displayTheJourney(me, she);
+}
+
+void _displayTheJourney(_Person me,_Person she) {
   print("Hello!");
   print("Its me ${_getOutput(me)}.");
   print("I am in a journey of finding a person.");
@@ -7,6 +13,7 @@ void main() {
   print("I have full faith on myself that I will find that person as fast as possible.");
   print("Wish me a Good Luck :-)");
   print("Bye bye, I am busy finding ${she.nameOfPersonWhichIsReallyBig}, cannot waste further time by talking ;-)");
+  print("---------------------------------------------");
 }
 
 String _getOutput(_Person person) {
